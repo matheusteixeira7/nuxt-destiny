@@ -28,10 +28,15 @@ module.exports = {
         navbar: {
           DEFAULT: '#f3f4f6',
           dark: '#1f2937',
+          darkbg: '#020617',
         },
         divider: {
           DEFAULT: '#e5e7eb',
           dark: '#374151',
+        },
+        body: {
+          DEFAULT: '#ffffff',
+          dark: '#0f172a',
         }
       },
       textColor: {

@@ -7,11 +7,16 @@
         </p>
       </div>
       <div class="mt-4 sm:ml-16 sm:mt-0 sm:flex-none">
-        <button type="button"
-          class="block rounded-md bg-primary px-3 py-1.5 text-center text-sm font-semibold leading-6 text-white shadow-sm hover:bg-primary-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary">Adicionar
-          Prestador</button>
+        <ButtonPrimary>
+          Adicionar Prestador
+        </ButtonPrimary>
       </div>
     </div>
+
+    <div>
+      <SearchBar />
+    </div>
+
     <div class="mt-8 flow-root">
       <div class="-mx-4 -my-2 overflow-x-auto sm:-mx-6 lg:-mx-8">
         <div class="inline-block min-w-full py-2 align-middle sm:px-6 lg:px-8">

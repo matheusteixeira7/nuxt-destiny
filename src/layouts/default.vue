@@ -23,7 +23,7 @@
                 </div>
               </TransitionChild>
               <!-- Sidebar component, swap this element with another sidebar if you like -->
-              <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-white dark:bg-gray-900 px-6 pb-2">
+              <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-navbar dark:bg-navbar-darkbg px-6 pb-2">
                 <div class="flex h-16 shrink-0 items-center">
                   <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
                     alt="Your Company" />
@@ -47,7 +47,7 @@
                             <DisclosurePanel as="ul" class="mt-1 px-2">
                         <li v-for="subItem in item.children" :key="subItem.name">
                           <DisclosureButton as="a" :href="subItem.href"
-                            :class="[subItem.current ? 'bg-navbar' : 'hover:bg-navbar dark:hover:bg-navbar-dark', 'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-navbar dark:text-navbar-dark']">
+                            :class="[subItem.current ? 'bg-navbar dark:bg-navbar-dark' : 'hover:bg-navbar dark:hover:bg-navbar-dark', 'block rounded-md py-2 pr-2 pl-9 text-sm leading-6 text-navbar dark:text-navbar-dark']">
                             {{ subItem.name }}</DisclosureButton>
                         </li>
                         </DisclosurePanel>
@@ -136,7 +136,7 @@
       </a>
     </div>
 
-    <main class="py-10 lg:pl-72 dark:bg-gray-800 h-screen">
+    <main class="py-10 lg:pl-72 h-full">
       <div class="px-4 sm:px-6 lg:px-8">
         <slot />
       </div>

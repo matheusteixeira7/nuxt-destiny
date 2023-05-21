@@ -12,16 +12,6 @@ useHead({
       content: 'My description'
     }
   ],
+
 })
 </script>
-
-<style>
-.html-class {
-  height: 100%;
-  background-color: white;
-}
-
-.body-class {
-  height: 100%;
-}
-</style>

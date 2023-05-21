@@ -2,9 +2,9 @@
   <div class="flex items-center justify-between border-t border-divider dark:border-divider-dark py-3">
     <div class="flex flex-1 justify-between sm:hidden">
       <a href="#"
-        class="relative inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Previous</a>
+        class="relative inline-flex items-center rounded-md border border-divider dark:border-divider-dark px-4 py-2 text-sm font-medium text-body dark:text-body-dark hover:bg-gray-50 dark:hover:bg-slate-800">Previous</a>
       <a href="#"
-        class="relative ml-3 inline-flex items-center rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50">Next</a>
+        class="relative ml-3 inline-flex items-center rounded-md border border-divider dark:border-divider-dark px-4 py-2 text-sm font-medium text-body dark:text-body-dark hover:bg-gray-50">Next</a>
     </div>
     <div class="hidden sm:flex sm:flex-1 sm:items-center sm:justify-between">
       <div>
