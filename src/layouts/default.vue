@@ -25,8 +25,11 @@
               <!-- Sidebar component, swap this element with another sidebar if you like -->
               <div class="flex grow flex-col gap-y-5 overflow-y-auto bg-navbar dark:bg-navbar-darkbg px-6 pb-2">
                 <div class="flex h-16 shrink-0 items-center">
-                  <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-                    alt="Your Company" />
+                  <div class="h-8 w-auto">
+                    <NuxtLink to="/">
+                      <VittaLogo width="auto" class="max-w-[100px]" />
+                    </NuxtLink>
+                  </div>
                 </div>
                 <nav class="flex flex-1 flex-col" aria-label="nav">
                   <ul role="list" class="flex flex-1 flex-col gap-y-7">
@@ -79,8 +82,11 @@
       <div
         class="flex grow flex-col gap-y-5 overflow-y-auto border-r border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 px-6">
         <div class="flex h-16 shrink-0 items-center">
-          <img class="h-8 w-auto" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
-            alt="Your Company" />
+          <div class="h-8 w-auto">
+            <NuxtLink to="/">
+              <VittaLogo width="auto" class="max-w-[100px]" />
+            </NuxtLink>
+          </div>
         </div>
         <nav class="flex flex-1 flex-col" aria-label="nav">
           <ul role="list" class="flex flex-1 flex-col gap-y-7">
