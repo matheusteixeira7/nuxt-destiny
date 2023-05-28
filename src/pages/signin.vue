@@ -27,7 +27,7 @@
                     autocomplete="current-password" :required="true"
                     class="block w-full rounded-md border-0 py-1.5 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6" />
                   <div v-if="passwordErrors.length >= 1">
-                    <span class="text-red-500 text-sm">Sua senha precisa conter:</span>
+                    <span class="text-red-500 text-sm mb-4">Sua senha precisa conter:</span>
                     <ul>
                       <li v-for=" error  in  passwordErrors " class="text-red-500 text-sm">{{ error }}</li>
                     </ul>
