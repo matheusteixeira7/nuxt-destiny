@@ -109,8 +109,8 @@ const handlePasswordShowErrors = () => {
     passwordErrors.value.push('1 letra maiúscula')
   }
 
-  if (!RegExp(/[0-9]/).exec(passwordField.value) && showPasswordErrors.value) {
-    passwordErrors.value.push('1 número')
+  if (!/\d/.test(passwordField.value) && showPasswordErrors.value) {
+    passwordErrors.value.push('1 número');
   }
 
   if (!RegExp(/[^a-zA-Z0-9]/).exec(passwordField.value) && showPasswordErrors.value) {
