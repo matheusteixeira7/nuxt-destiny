@@ -12,6 +12,5 @@ useHead({
       content: 'My description'
     }
   ],
-
 })
 </script>

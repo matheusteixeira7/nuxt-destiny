@@ -57,6 +57,10 @@ module.exports = {
           dark: '#ffffff',
         },
       },
+      backgroundImage: {
+        'sign-pattern': "url('/img/signin-pattern.svg')",
+        'footer-texture': "url('/img/footer-texture.png')",
+      }
     },
   },
   plugins: [require('@tailwindcss/forms')],
